@@ -1,0 +1,163 @@
+import { StyleSheet } from "react-native";
+
+const styles = StyleSheet.create({
+  flex: {
+    flex: 1,
+  },
+  safeArea: {
+    flex: 1,
+    backgroundColor: "#f1f5f9",
+  },
+  container: {
+    flexGrow: 1,
+    justifyContent: "center",
+    paddingHorizontal: 20,
+    paddingVertical: 24,
+  },
+  card: {
+    backgroundColor: "#ffffff",
+    padding: 28,
+    borderRadius: 28,
+    borderWidth: 1,
+    borderColor: "#e2e8f0",
+    shadowColor: "#0f172a",
+    shadowOffset: { width: 0, height: 8 },
+    shadowOpacity: 0.08,
+    shadowRadius: 20,
+    elevation: 6,
+  },
+  brandRow: {
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 14,
+    marginBottom: 32,
+  },
+  logo: {
+    width: 56,
+    height: 56,
+    borderRadius: 16,
+    backgroundColor: "#0ea5e9",
+    alignItems: "center",
+    justifyContent: "center",
+    shadowColor: "#0ea5e9",
+    shadowOffset: { width: 0, height: 6 },
+    shadowOpacity: 0.35,
+    shadowRadius: 10,
+    elevation: 6,
+  },
+  brandName: {
+    fontSize: 18,
+    fontWeight: "bold",
+    color: "#0f172a",
+  },
+  brandSub: {
+    fontSize: 12,
+    color: "#64748b",
+    marginTop: 2,
+  },
+  eyebrow: {
+    fontSize: 12,
+    fontWeight: "bold",
+    letterSpacing: 1.5,
+    color: "#0ea5e9",
+    marginBottom: 10,
+  },
+  title: {
+    fontSize: 32,
+    fontWeight: "500",
+    color: "#0f172a",
+    marginBottom: 10,
+  },
+  subtitle: {
+    fontSize: 15,
+    lineHeight: 22,
+    color: "#64748b",
+    marginBottom: 28,
+  },
+  group: {
+    marginBottom: 16,
+    gap: 6,
+  },
+  label: {
+    fontSize: 14,
+    fontWeight: "600",
+    color: "#334155",
+  },
+  inputWrapper: {
+    flexDirection: "row",
+    alignItems: "center",
+    minHeight: 56,
+    borderRadius: 16,
+    borderWidth: 1,
+    borderColor: "#e2e8f0",
+    backgroundColor: "#ffffff",
+    paddingHorizontal: 14,
+  },
+  wrapperDisabled: {
+    backgroundColor: "#f8fafc",
+  },
+  icon: {
+    marginRight: 10,
+  },
+  input: {
+    flex: 1,
+    paddingVertical: 12,
+    fontSize: 16,
+    color: "#0f172a",
+  },
+  inputDisabled: {
+    color: "#64748b",
+  },
+  button: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
+    gap: 6,
+    backgroundColor: "#0ea5e9",
+    paddingVertical: 16,
+    borderRadius: 16,
+    marginTop: 12,
+    shadowColor: "#0ea5e9",
+    shadowOffset: { width: 0, height: 8 },
+    shadowOpacity: 0.35,
+    shadowRadius: 12,
+    elevation: 6,
+  },
+  buttonText: {
+    color: "#ffffff",
+    fontWeight: "bold",
+    fontSize: 16,
+  },
+  linkRow: {
+    flexDirection: "row",
+    justifyContent: "center",
+    alignItems: "center",
+    marginTop: 20,
+  },
+  linkText: {
+    fontSize: 13,
+    color: "#64748b",
+  },
+  linkAction: {
+    fontSize: 13,
+    color: "#0ea5e9",
+    fontWeight: "bold",
+  },
+  footer: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
+    gap: 6,
+    marginTop: 24,
+    paddingTop: 16,
+    borderTopWidth: 1,
+    borderTopColor: "#e2e8f0",
+  },
+  footerText: {
+    fontSize: 12,
+    color: "#94a3b8",
+    fontWeight: "600",
+  },
+});
+
+export default styles;
